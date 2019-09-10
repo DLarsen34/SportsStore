@@ -1,15 +1,18 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Linq;
 
-namespace SportsStore.Models.ViewModels
+namespace SportsStore.Models
 {
 
-    public class PagingInfo
+    public class EFProductRepository : IProductRepository
     {
-        public int TotalItems { get; set; }
-        public int ItemsPerPage { get; set; }
-        public int CurrentPage { get; set; }
+        private ApplicationDbContext context;
 
-        public int TotalPages =>
-            (int)Math.Ceiling((decimal)TotalItems / ItemsPerPage);
+        public EFProductRepository(ApplicationDbContext ctx)
+        {
+            context = ctx;
+        }
+
+        public IQueryable<Product> Products => context.Products;
     }
 }
