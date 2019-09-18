@@ -8,3 +8,5 @@ The hardest thing for me, is just keeping track of everything and how they all l
 Chapter 9
 I understand what the author is doing in the Startup.cs file when we change the routes. I just don't understand how he's doing or how
 we are supposed to know that this is the syntax to use.
+I really like the View Component that the author used, it was very useful and easy to understand, they are a lot like the 
+parial views we are using in our Spicy Thai project.
