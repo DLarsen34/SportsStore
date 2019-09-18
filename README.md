@@ -4,3 +4,7 @@ remembering all the syntax for everything. I understand the MVC and model and wh
 and have a good understanding of what everything does, but just remembering the syntax is challenging
 for me.
 The hardest thing for me, is just keeping track of everything and how they all link up.
+
+Chapter 9
+I understand what the author is doing in the Startup.cs file when we change the routes. I just don't understand how he's doing or how
+we are supposed to know that this is the syntax to use.
