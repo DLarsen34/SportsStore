@@ -10,3 +10,6 @@ I understand what the author is doing in the Startup.cs file when we change the 
 we are supposed to know that this is the syntax to use.
 I really like the View Component that the author used, it was very useful and easy to understand, they are a lot like the 
 parial views we are using in our Spicy Thai project.
+Lastly the thing I struggled with the most was the shopping cart part. Just how everything communicated with each other
+and having to make the extension methods and then just all the different syntax that was needed to get it to work smoothly.
+It's really cool to see how it all works though.
