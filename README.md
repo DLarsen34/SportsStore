@@ -13,3 +13,9 @@ parial views we are using in our Spicy Thai project.
 Lastly the thing I struggled with the most was the shopping cart part. Just how everything communicated with each other
 and having to make the extension methods and then just all the different syntax that was needed to get it to work smoothly.
 It's really cool to see how it all works though.
+
+Chapter 10
+This chapter was the easiest to me so far. I'm starting to understand what everything is doing and
+how it is all working together. And binding data to the certain views is starting to make sense as well.
+I always have to read the parts where the author is using LINQ a couple different times, to get it to really 
+sink in. But after 2-3 times it starts to make sense.
