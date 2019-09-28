@@ -19,3 +19,7 @@ This chapter was the easiest to me so far. I'm starting to understand what every
 how it is all working together. And binding data to the certain views is starting to make sense as well.
 I always have to read the parts where the author is using LINQ a couple different times, to get it to really 
 sink in. But after 2-3 times it starts to make sense.
+
+Chapter 11
+It was interesting to see how using the IProductRespository as an interface for the EFProductRepository makes things work.
+It was also interesting how the author did the Create and Delete functions in the controller differently than we did in SpicyThai.
