@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SportsStore.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SportsStore.Controllers
 {
 
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
@@ -36,7 +38,7 @@ namespace SportsStore.Controllers
             }
         }
 
-        public IActionResult Create() => View("Edit", new Product());
+        public ViewResult Create() => View("Edit", new Product());
 
         [HttpPost]
         public IActionResult Delete(int productId)
