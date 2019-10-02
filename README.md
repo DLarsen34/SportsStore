@@ -23,3 +23,7 @@ sink in. But after 2-3 times it starts to make sense.
 Chapter 11
 It was interesting to see how using the IProductRespository as an interface for the EFProductRepository makes things work.
 It was also interesting how the author did the Create and Delete functions in the controller differently than we did in SpicyThai.
+
+Chapter 12
+Everything went well on this chapter. I understood what we were doing with the admin and identity database, I was having issues emptying my
+database but thank's to Dr. Fry's help he helped me fix it.
