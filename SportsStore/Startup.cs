@@ -56,12 +56,14 @@ namespace SportsStore
             {
                 app.UseExceptionHandler("/Error");
             }
-            app.UseDeveloperExceptionPage();
-            app.UseStatusCodePages();
+
             app.UseStaticFiles();
             app.UseSession();
             app.UseAuthentication();
             app.UseMvc(routes => {
+                routes.MapRoute(name: "Error", template: "Error",
+                    defaults: new { controller = "Error", action = "Error" });
+
                 routes.MapRoute(
                     name: null,
                     template: "{category}/Page{productPage:int}",
@@ -87,6 +89,7 @@ namespace SportsStore
 
                 routes.MapRoute(name: null, template: "{controller}/{action}/{id?}");
             });
+
             //SeedData.EnsurePopulated(app);
             //IdentitySeedData.EnsurePopulated(app);
         }
