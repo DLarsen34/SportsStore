@@ -50,5 +50,11 @@ namespace SportsStore.Controllers
             }
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public IActionResult SeedDatabase()
+        {
+            SeedData.EnsurePopulated(HttpContext.RequestServices);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
